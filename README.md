@@ -14,3 +14,5 @@ When you enter the game your difficulty as well as your score is shown below the
 Use the "W" key to move your paddle up and the "S" key to move your paddle down.
 
 Have fun!
+
+📃Note: Make sure the BoardPong and src folder are both marked as the sources root.
