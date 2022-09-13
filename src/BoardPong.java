@@ -423,7 +423,7 @@ public class BoardPong {
 
         try {   //Tries the commands inside it and catches errors and exceptions if they appear.
 
-            File saveData = new File("Save.txt");   //Creates a new file method called "saveData" and sets the path of the file to "Save.txt".
+            File saveData = new File("BoardPong/Save.txt");   //Creates a new file method called "saveData" and sets the path of the file to "Save.txt".
             output = new PrintWriter(saveData);     //Creates a new print writer method that writes to the saveData file.
 
         } catch (IOException e) {   //Catches any Input/Output exceptions and announces it in the console. It also handles them using the "e.printStackTrace();" tool.
